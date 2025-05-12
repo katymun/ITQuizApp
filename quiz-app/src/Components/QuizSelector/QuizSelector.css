@@ -1,0 +1,71 @@
+:root {
+    --matcha: #809671;
+    --almond: #E5E0D8;
+    --pistache: #B3B792;
+    --chai: #D2AB80;
+    --carob: #725C3A;
+    --dark-carob: #19130d;
+    --vanilla: #E5D2B8;
+}
+
+.quiz-selector {
+    margin: 50px;
+    background-color: var(--almond);
+    color: var(--dark-carob);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.quiz-selector h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.quiz-selector h2 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.quiz-selector ul {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.quiz-selector ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 0px 15px;
+    border-radius: 7px;
+    border: 1px solid var(--carob);
+    background-color: var(--almond);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.quiz-selector ul li button:hover {
+    background-color: var(--pistache);
+}
+
+.quiz-selector .stats {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.quiz-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-score {
+    font-size: 0.9rem;
+    color: #666;
+}
