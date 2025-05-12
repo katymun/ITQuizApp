@@ -1,9 +1,19 @@
+:root {
+    --matcha: #809671;
+    --almond: #E5E0D8;
+    --pistache: #B3B792;
+    --chai: #D2AB80;
+    --carob: #725C3A;
+    --dark-carob: #19130d;
+    --vanilla: #E5D2B8;
+}
+
 * {
   margin: 0;
 }
 
 body {
   height: 100vh;
-  background-image: linear-gradient(#a3e3ff, #cec9ff);
+  background-color: var(--pistache);
   font-family: 'Poppins'
 }
