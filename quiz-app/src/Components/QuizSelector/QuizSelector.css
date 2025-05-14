@@ -69,3 +69,8 @@
     font-size: 0.9rem;
     color: #666;
 }
+
+.locked {
+    pointer-events: none;
+    opacity: 0.5;
+}
