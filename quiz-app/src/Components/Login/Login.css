@@ -1,0 +1,126 @@
+/* Login.css */
+
+/* Reuse your palette variables */
+:root {
+    --matcha: #809671;
+    --almond: #E5E0D8;
+    --pistache: #B3B792;
+    --chai: #D2AB80;
+    --carob: #725C3A;
+    --dark-carob: #19130d;
+    --vanilla: #E5D2B8;
+    --reddish: #b85b44;
+}
+
+/* Center the login container on the page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full viewport height */
+    background-color: var(--vanilla);
+}
+
+/* White-ish card with rounded corners */
+.login-form-container {
+    width: 400px;
+    background-color: var(--almond);
+    color: var(--dark-carob);
+    border-radius: 10px;
+    padding: 30px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading at top of the card */
+.login-form-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--carob);
+}
+
+/* Error message styling */
+.error-message {
+    background-color: var(--reddish);
+    color: var(--almond);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Form layout: vertical stack with gaps */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Each label/input group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Input fields */
+.form-group input {
+    padding: 10px;
+    border: 1px solid var(--carob);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--dark-carob);
+    background-color: var(--vanilla);
+    transition: border-color 0.2s ease-in-out;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--matcha);
+}
+
+/* Submit button */
+.login-button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--carob);
+    color: var(--almond);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #58472d; /* slightly darker carob */
+}
+
+/* “Register” link under the form */
+.register-link {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--dark-carob);
+}
+
+.register-link a {
+    color: var(--matcha);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover {
+    color: var(--pistache);
+    text-decoration: underline;
+}

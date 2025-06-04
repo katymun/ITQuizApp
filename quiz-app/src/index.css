@@ -17,3 +17,33 @@ body {
   background-color: var(--pistache);
   font-family: 'Poppins'
 }
+
+.logout-button-div {
+    width: 100%;
+    display:  flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.logout-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: var(--carob);
+    color: var(--almond);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.logout-button:hover {
+    background-color: #58472d;
+}
+
+.logout-button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}

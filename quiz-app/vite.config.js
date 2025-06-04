@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/ITQuizApp/",
   plugins: [react()],
+  erver: {
+    host: 'localhost',
+    port: 5173,          // or whatever port you like
+    strictPort: true     // if you want Vite to fail instead of picking a new port
+  }
 })

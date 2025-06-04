@@ -89,7 +89,7 @@ export const quizList = [
   {
     id: "java-nivel-2",
     title: "Java Intermediar - Nivel 2",
-    level: 2,
+    level: 1,
     questions: [
       {
         question: "Ce cuvânt cheie este folosit pentru a crea o clasă?",
@@ -176,7 +176,7 @@ export const quizList = [
   {
     id: "java-nivel-3",
     title: "Java Avansat - Nivel 3",
-    level: 3,
+    level: 2,
     questions: [
       {
         question: "Ce este o metodă `static`?",
